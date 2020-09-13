@@ -1,0 +1,11 @@
+{
+  "name": "file-explorer",
+  "version": "1.0.0",
+  "description": "This is a file exploring application build using nodejs by Dilip Jain",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dilip Jain",
+  "license": "ISC"
+}

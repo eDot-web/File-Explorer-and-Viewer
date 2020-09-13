@@ -1,0 +1,57 @@
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.breadcrumb{
+    background-color: #262642;
+    border-radius: 0;
+}
+
+a, a:hover{
+    color: #AEBD38;
+}
+
+.table{
+    color: #041930;
+    margin: 100px 10px;
+}
+
+thead{
+    background-color: #041930;
+    color: white;
+    cursor: pointer;
+}
+
+tbody svg{
+    color: #041930;
+    font-size: 24px;
+    margin-right: 3px;
+}
+
+thead svg{
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 3px;
+}
+
+tbody{
+    display: block;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+thead, tbody tr{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #262642;
+}
